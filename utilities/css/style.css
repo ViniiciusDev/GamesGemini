@@ -1,0 +1,39 @@
+/* #222222 (preto), #F2A900 (laranja), #555555 (cinza escuro), #FFFFFF (branco). */
+/* #1E90FF (azul elétrico), #FFFFFF (branco), #000000 (preto), #808080 (cinza). */
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+header  {
+    display: flex;
+    justify-content: center;
+}
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+
+
+    background-color: red;
+}
+
+.header__navigation-container   {
+    display: flex;
+}
+
+.header__navigation-item    {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.header__navigation-item a  {
+    color: #fff;
+    text-decoration: none;
+}
